@@ -33,14 +33,14 @@ namespace App
         static void Main(string[] args)
         {
 			int l1, l2, r1, r2;
-			Console.WriteLine("Enter lower range x1:");
+			Console.WriteLine("Enter lower range x1:"); // -2
 			l1 = int.Parse(Console.ReadLine());
-			Console.WriteLine("Enter upper range x1:");
+			Console.WriteLine("Enter upper range x1:"); // 2
 			r1 = int.Parse(Console.ReadLine());
 
-			Console.WriteLine("Enter lower range x2:");
+			Console.WriteLine("Enter lower range x2:"); // -1
 			l2 = int.Parse(Console.ReadLine());
-			Console.WriteLine("Enter upper range x2:");
+			Console.WriteLine("Enter upper range x2:"); // 1
 			r2 = int.Parse(Console.ReadLine());
 
 			double step1 = 0.1;
